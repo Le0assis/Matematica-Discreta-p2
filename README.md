@@ -1,67 +1,65 @@
-📌 Descrição
+README -- Projeto de Matrizes e Grafos em R
 
-Este projeto gera automaticamente:
+Descrição\
+Este projeto gera automaticamente:\
+- Matriz de incidência\
+- Matriz de similaridade\
+- Matriz de coocorrência\
+- Grafos correspondentes
 
-Matriz de incidência
+Todas as matrizes são criadas a partir de um dataset contendo alunos e
+gêneros de filmes. O código é organizado em arquivos separados para
+facilitar o uso e a manutenção.
 
-Matriz de similaridade
+------------------------------------------------------------------------
 
-Matriz de coocorrência
+Estrutura do Projeto
 
-Grafos correspondentes
-Tudo baseado em um dataset de alunos e gêneros de filmes.
+/Matematica-discreta/\
+│\
+├── data/\
+│ └── dataset.csv\
+│\
+├── R/\
+│ ├── load_dataset.R\
+│ ├── create_incidence_matrix.R\
+│ ├── create_similarity_matrix.R\
+│ ├── create_cooccurrence_matrix.R\
+│ ├── create_graphs.R\
+│\
+└── scripts/\
+└── main.R
 
-O código está dividido em arquivos separados para facilitar a organização e manutenção.
+------------------------------------------------------------------------
 
-📂 Estrutura do Projeto
-/Matematica-discreta/
-│
-├── data/
-│     └── dataset.csv
-│
-├── R/
-│     ├── load_dataset.R
-│     ├── create_incidence_matrix.R
-│     ├── create_similarity_matrix.R
-│     ├── create_cooccurrence_matrix.R
-│     ├── create_graphs.R
-│
-└── scripts/
-      └── main.R
+Como Rodar o Projeto
 
-▶ Como Rodar o Projeto
-
-Abra o RStudio
-
-Abra o projeto (.Rproj) ou a pasta do projeto.
-
-Rode o script principal:
+1.  Abra o RStudio\
+2.  Abra o projeto ou a pasta principal\
+3.  Execute:
 
 source("scripts/main.R")
 
+O script irá:\
+- carregar o dataset\
+- gerar todas as matrizes\
+- exibir resultados no console\
+- criar e mostrar os grafos automaticamente
 
-O script automaticamente:
+------------------------------------------------------------------------
 
-Carrega o dataset
+Dependências
 
-Gera as matrizes
-
-Mostra tudo no console
-
-Cria os grafos (visualização no R)
-
-📌 Dependências
-
-Instale apenas uma vez:
+Instalar antes de rodar o projeto:
 
 install.packages(c("reshape2", "igraph"))
 
-📊 Saídas Geradas
+------------------------------------------------------------------------
 
-incidence – matriz de incidência
+Saídas Geradas
 
-similarity – matriz de similaridade
-
-cooccurrence – matriz de coocorrência
-
-Grafos exibidos na janela de plot do RStudio
+O script produz:\
+- Matriz de incidência\
+- Matriz de similaridade\
+- Matriz de coocorrência\
+- Grafos exibidos na janela de plot do RStudio
