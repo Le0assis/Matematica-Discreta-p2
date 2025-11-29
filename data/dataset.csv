@@ -1,0 +1,61 @@
+aluno,genero,weight
+Ana Martins,Ação,1
+Ana Martins,Comédia,1
+Ana Martins,Terror,0
+Ana Martins,Romance,1
+Ana Martins,Ficção Científica,0
+Ana Martins,Drama,1
+Bruno Souza,Ação,1
+Bruno Souza,Comédia,0
+Bruno Souza,Terror,1
+Bruno Souza,Romance,0
+Bruno Souza,Ficção Científica,1
+Bruno Souza,Drama,0
+Carla Lima,Ação,0
+Carla Lima,Comédia,1
+Carla Lima,Terror,1
+Carla Lima,Romance,0
+Carla Lima,Ficção Científica,0
+Carla Lima,Drama,1
+Diego Alves,Ação,1
+Diego Alves,Comédia,1
+Diego Alves,Terror,0
+Diego Alves,Romance,0
+Diego Alves,Ficção Científica,1
+Diego Alves,Drama,0
+Elisa Duarte,Ação,0
+Elisa Duarte,Comédia,0
+Elisa Duarte,Terror,1
+Elisa Duarte,Romance,1
+Elisa Duarte,Ficção Científica,0
+Elisa Duarte,Drama,1
+Felipe Rocha,Ação,1
+Felipe Rocha,Comédia,0
+Felipe Rocha,Terror,0
+Felipe Rocha,Romance,1
+Felipe Rocha,Ficção Científica,1
+Felipe Rocha,Drama,0
+Giovana Reis,Ação,0
+Giovana Reis,Comédia,1
+Giovana Reis,Terror,0
+Giovana Reis,Romance,1
+Giovana Reis,Ficção Científica,0
+Giovana Reis,Drama,1
+Henrique Paz,Ação,1
+Henrique Paz,Comédia,0
+Henrique Paz,Terror,1
+Henrique Paz,Romance,0
+Henrique Paz,Ficção Científica,1
+Henrique Paz,Drama,1
+Isabella N.,Ação,0
+Isabella N.,Comédia,1
+Isabella N.,Terror,1
+Isabella N.,Romance,1
+Isabella N.,Ficção Científica,0
+Isabella N.,Drama,0
+João Pedro,Ação,1
+João Pedro,Comédia,1
+João Pedro,Terror,0
+João Pedro,Romance,0
+João Pedro,Ficção Científica,0
+João Pedro,Drama,1
